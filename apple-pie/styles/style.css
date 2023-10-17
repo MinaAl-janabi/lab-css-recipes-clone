@@ -18,7 +18,25 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
 /*  Set the font */
 body {
   font-family: "Helvetica", sans-serif;
+    background-color: #f7f7f7;
+    padding: 20px;
 }
+
+.servings {
+    font-size: 24px;
+    color: #333;
+}
+
+.nutrients {
+    font-size: 18px;
+    color: #555;
+}
+
+
 
 /* STYLES */
 /* Write your CSS below */
+#background {
+  background-image: url('apple_pie.jpg');
+  background-size: cover;
+}
